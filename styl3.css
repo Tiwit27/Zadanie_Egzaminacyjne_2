@@ -1,0 +1,14 @@
+*
+{
+    font-family: Arial;
+}
+body
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#LewoTop, #SrodekTop, #PrawoTop, #LewoBottom, #SrodekBottom, #PrawoBottom
+{
+    
+}
