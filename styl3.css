@@ -2,13 +2,48 @@
 {
     font-family: Arial;
 }
-body
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 #LewoTop, #SrodekTop, #PrawoTop, #LewoBottom, #SrodekBottom, #PrawoBottom
 {
-    
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+}
+#LewoTop, #LewoBottom
+{
+    width: 55%;
+    font-size: 120%;
+    float: left;
+}
+#SrodekTop, #SrodekBottom
+{
+    width: 25%;
+    float: left;
+}
+#PrawoTop, #PrawoBottom
+{
+    width: 20%;
+    text-align: right;
+    float: right;
+}
+#Main
+{
+    background-color: snow;
+    padding: 70px;
+    clear: both;
+}
+a
+{
+    border: dotted 2px saddlebrown;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    height: 100px;
+}
+ol
+{
+    list-style-type: lower-alpha;
+}
+p
+{
+    margin: 0px;
 }

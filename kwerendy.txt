@@ -1,0 +1,4 @@
+kw1: Insert Into ratownicy ('nrKaretki', 'ratownik1', 'ratownik2', 'ratownik3') VALUES (20, 'Adam Nowak', 'Jan Kowalski', 'Anna Nowakowska');
+kw2: Select zgloszenia.id, zgloszenia.adres, zgloszenia.ratownicy_id FROM zgloszenia INNER JOIN dyspozytorzy on zgloszenia.dyspozytorzy_id = dyspozytorzy_id WHERE dyspozytorzy_id = 4;
+kw3: Create User 'adam';
+kw4: REVOKE ALL PRIVILEGES ON `ee09`.* FROM 'adam';
